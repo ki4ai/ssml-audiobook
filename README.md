@@ -22,14 +22,14 @@
 
 #### Quick start
 
-* Step1. GPU Version - 호스트 머신에서 아래 명령을 실행한다. 
+* Step1. 호스트 머신에서 아래 명령을 실행한다. 
 ```
 export CUDA_VISIBLE_DEVICES=<GPUID>
 python flask_server.py : 통합 버전용
 또는 python flask_server_test.py : 개별 테스트용
 ```
 
-* Step2. (POST 방법 참조) GPU Version - 클라이언트 머신(예제는 호스트와 동일)에서 아래 명령을 실행한다. 
+* Step2. (POST 방법 참조) 클라이언트 머신(예제는 호스트와 동일)에서 아래 명령을 실행한다. 
 ```
 python client.py: 통합 버전용
 또는 python client_test.py: 개별 테스트용
